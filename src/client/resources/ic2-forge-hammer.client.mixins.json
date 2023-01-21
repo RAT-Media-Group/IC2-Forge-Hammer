@@ -3,7 +3,7 @@
 	"package": "org.ratmedia.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"RunExample"
 	],
 	"injectors": {
 		"defaultRequire": 1
