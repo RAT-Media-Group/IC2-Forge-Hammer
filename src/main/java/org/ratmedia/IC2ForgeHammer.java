@@ -6,6 +6,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 import org.ratmedia.items.ForgeHammer;
+import org.ratmedia.items.IronItemCasing;
+import org.ratmedia.items.IronPlate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +21,24 @@ public class IC2ForgeHammer implements ModInitializer {
 			Registries.ITEM,
 			new Identifier("rmg", "forge_hammer"),
 			new ForgeHammer()
+
+		);
+	
+	public static final IronPlate IRON_PLATE =
+		Registry.register(
+
+			Registries.ITEM,
+			new Identifier("rmg", "iron_plate"),
+			new IronPlate()
+
+		);
+
+	public static final IronItemCasing IRON_ITEM_CASING =
+		Registry.register(
+
+			Registries.ITEM,
+			new Identifier("rmg", "iron_item_casing"),
+			new IronItemCasing()
 
 		);
 
