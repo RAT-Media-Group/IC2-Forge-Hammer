@@ -1,0 +1,17 @@
+{
+
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+
+        {"item": "rmg:forge_hammer"},
+        {"item": "rmg:iron_plate"}
+
+    ],
+    "result": {
+
+        "item": "rmg:iron_item_casing",
+        "count": 1
+
+    }
+
+}
